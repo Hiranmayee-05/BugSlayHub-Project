@@ -7,10 +7,12 @@ import Checkout from "../Components/ProductPage/Checkout";
 import BlankCart from "../Components/LoginAndNavbar/BlankCart";
 
 
+
 import Landing from "./Landing";
 import { Cart } from "../Components/cartPage/CartProduct";
 import { Payment } from "../Components/cartPage/payment";
 import Register from "./User/Register";
+
 import Login from "./User/Login";
 
 
@@ -35,5 +37,6 @@ const MainRoutes = () => {
     </Routes>
   );
 };
+
 
 export default MainRoutes;
