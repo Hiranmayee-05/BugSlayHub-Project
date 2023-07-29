@@ -14,3 +14,4 @@ export const UPDATE_CARTS_FAILURE = "UPDATE_CARTS_FAILURE"
 export const DELETE_CARTS_REQUEST = "DELETE_CARTS_REQUEST"
 export const DELETE_CARTS_SUCCESS = "DELETE_CARTS_SUCCESS"
 export const DELETE_CARTS_FAILURE = "DELETE_CARTS_FAILURE"
+//it carries a payoad of information from the aplication to the store
