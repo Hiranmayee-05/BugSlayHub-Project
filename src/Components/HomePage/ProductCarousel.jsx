@@ -10,6 +10,7 @@ import { getProducts } from "../../Redux/furniture/action";
 
 import "./ProductCarousel.css";
 
+
 const ProductCarousel = () => {
   const { city } = useContext(CityContext);
   const [loading, setLoading] = useState(false);
@@ -33,6 +34,7 @@ const ProductCarousel = () => {
     },
   };
 
+  
   const dispatch = useDispatch();
   const productData = useSelector((store) => store.furniture.products);
 
@@ -45,6 +47,7 @@ const ProductCarousel = () => {
     setLoading(false);
   }, [dispatch, productData.length]);
 
+  
   const product = productData?.map((item) => (
     <Link to={`/${city}/Furniture/${item.title}/${item.id}`} key={item.id}>
       <div className="__each__Product__">
@@ -63,6 +66,7 @@ const ProductCarousel = () => {
     </Link>
   ));
 
+  
   if (loading) {
     return (
       <div>
