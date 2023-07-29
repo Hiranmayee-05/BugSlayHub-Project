@@ -14,4 +14,5 @@ const App = () => {
   );
 };
 
+//all components used here
 export default App;
