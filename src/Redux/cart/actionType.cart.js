@@ -1,3 +1,4 @@
+//actioncart.js is the source of information for the store.js
 export const GET_CARTS_REQUEST = "GET_CARTS_REQUEST"
 export const GET_CARTS_SUCCESS = "GET_CARTS_SUCCESS"
 export const GET_CARTS_FAILURE = "GET_CARTS_FAILURE"
