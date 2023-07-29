@@ -5,7 +5,7 @@ const initialState = {
     isLoading: false,
     isError: false
 }
-
+//this is the initial state created which is used further in this code file
 const reducerCart = (state = initialState, action) => {
     const { type, payload } = action;
 
