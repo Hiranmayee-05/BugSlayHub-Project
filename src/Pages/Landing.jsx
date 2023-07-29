@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+//useefect is the reacthook used in the project
 import { useNavigate } from "react-router-dom";
 
 const Landing = () => {
