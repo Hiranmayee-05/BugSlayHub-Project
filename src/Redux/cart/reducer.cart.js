@@ -1,5 +1,5 @@
 import * as types from "./actionType.cart";
-
+//reducer file takes actions and previous state of the applicaton and returns the new state
 const initialState = {
     carts: [],
     isLoading: false,
