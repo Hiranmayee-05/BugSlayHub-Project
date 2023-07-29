@@ -48,5 +48,5 @@ const deleteCarts = (id) => async (dispatch) => {
 }
 
 
-
 export { getCarts, addCarts, updateCarts, deleteCarts }
+//exporting here getcarts,addcarts,updatecarts and deletecarts here
