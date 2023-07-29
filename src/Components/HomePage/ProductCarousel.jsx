@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from "react";
-
+//these are the hooks used in this code file
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { CityContext } from "../../Context/CityContext";
 import { getCarts } from "../../Redux/cart/action.cart";
+
 import { getProducts } from "../../Redux/furniture/action";
 
 import "./ProductCarousel.css";
@@ -99,5 +100,5 @@ const ProductCarousel = () => {
     );
   }
 };
-
+//
 export default ProductCarousel;
